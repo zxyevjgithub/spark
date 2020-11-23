@@ -33,7 +33,11 @@
   </dependencyManagement>
 
   <dependencies>
-
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-scala_2.11</artifactId>
+      <version>2.9.2</version>
+    </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-core</artifactId>
@@ -131,6 +135,7 @@
         <artifactId>junit</artifactId>
         <version>4.12</version>
       </dependency>
+
 
   </dependencies>
 
